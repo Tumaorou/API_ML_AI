@@ -1,9 +1,13 @@
 # 哼唱识曲文档
 ## 许烨臻
-## [PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
+## 清单
+* [PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
+* [产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)
+* [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
 ------
 # 实在细节
 ## 一、PRD
+* [PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
 ### PRD1.加值宣言
 * 运用**语音识别**提升音乐软件**哼唱识曲**功能的成功率。
 ### PRD2.核心价值
@@ -32,6 +36,8 @@
 ### 原型1.交互及界面设计
 ### 原型2.信息设计
 ### 原型3.原型文档
+* [产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)
+* [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
 ### 原型4.口头操作说明
 
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
