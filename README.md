@@ -30,7 +30,7 @@
 | 读出歌手的名字精准识曲 | 用户在录音中读出歌手的名字，返回的结果是该歌手的该首歌 | 重要 | 大部分歌曲有不止一个歌手的版本 |
 | 识别普通话以外的歌曲 | 识别外语歌和方言歌 | 非常重要 | |
 
-* 需求项
+* **需求项**
   1. 读出歌曲任意歌词识曲
     - 运用**百度语音识别**识别出用户唱出的歌词后，用**网易云API**搜索获取歌曲播放地址。
   2. 读出歌手的名字精准识曲
@@ -40,6 +40,21 @@
 
 ## 二、原型
 ### 原型1.交互及界面设计
+* 可进入[产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)体验交互
+1. 首页，用户可在此页面进行录音。
+
+	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/%E9%A6%96%E9%A1%B5.PNG" alt="首页" width="50%" height="50%">
+	
+2. 识别成功/识别失败，识别成功进入成功页面显示识别出的歌曲，识别失败则列出最有可能的三首歌。
+
+	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/%E8%AF%86%E5%88%AB%E6%88%90%E5%8A%9F.PNG" alt="识别成功" width="50%" height="50%">
+
+	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/%E8%AF%86%E5%88%AB%E5%A4%B1%E8%B4%A5.PNG" alt="识别失败" width="50%" height="50%">
+
+3. 播放，在成功或失败页面点击歌曲进入播放页面
+
+	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/%E6%92%AD%E6%94%BE.PNG" alt="播放" width="50%" height="50%">
+
 ### 原型2.信息设计
 ### 原型3.原型文档
 * [产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)
@@ -49,6 +64,7 @@
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### API1.使用水平
 * [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
+
 | 输入 | 输出 | API |
 | ------------- | ------------- | ------------- |
 | 用户录制的音频 | 识别出的文字 | 百度语音识别 |
