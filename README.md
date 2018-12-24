@@ -1,14 +1,13 @@
 # 哼唱识曲文档
 ## 许烨臻
 ## 清单
-* [PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
+* [初版PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
 * [产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)
 * [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
 * [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
 ------
 # 实在细节
 ## 一、PRD
-* [PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
 ### PRD1.加值宣言
 * 运用**语音识别**提升音乐软件**哼唱识曲**功能的成功率。
 ### PRD2.核心价值
@@ -18,6 +17,7 @@
 * 若用户无法哼唱出曲调（五音不全），传统的哼唱识别又无法识别歌词，成功识别歌曲的成功率低。
 * 本产品通过**语音识别**可在用户唱不出曲调，能唱出歌词的情况下提升**哼唱识曲**的成功率。
 ### PRD4.人工智能概率性与用户痛点
+> 百度语音识别为开发者提供业界优质且免费的语音服务，通过场景识别优化，为车载导航，智能家居和社交聊天等行业提供语音解决方案，准确率达到90%以上，让您的应用绘“声”绘色
 * __可导致识别失败的因素和如何解决__
   1. 用户会用外语、方言或者普通话口音重。
       - 百度语音识别可识别多种语言（方言），若能让人工智能分辨语言就能解决。
