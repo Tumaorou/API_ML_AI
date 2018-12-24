@@ -65,10 +65,14 @@
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### API1.使用水平
 * [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
+* API运作流程图
+
+	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/API%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="API运作流程图" width="80%">
 
 | 输入 | 输出 | API |
 | ------------- | ------------- | ------------- |
 | 用户录制的音频 | 识别出的文字 | 百度语音识别 |
+| 用户录制的音频 | 歌曲名称 | 讯飞听歌识曲 |
 | 识别出的文字 | 歌曲ID | 网易云搜索 |
 | 歌曲ID | 歌曲音频 | 网易云播放 |
 
