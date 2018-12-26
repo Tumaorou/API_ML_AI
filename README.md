@@ -2,9 +2,11 @@
 ## 许烨臻
 ## 清单
 * [初版PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
+* [《搜狗语音识别产品与竞品准确率对比评估报告》](https://max.book118.com/html/2017/0528/109819187.shtm)
 * [产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)
 * [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
 * [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
+* [《使用比较分析文档》](https://github.com/Tumaorou/API_ML_AI/blob/master/API_compare.md)
 ------
 # 实在细节
 ## 一、PRD
@@ -17,7 +19,7 @@
 * 若用户无法哼唱出曲调（五音不全），传统的哼唱识别又无法识别歌词，成功识别歌曲的成功率低。
 * 本产品通过**语音识别**可在用户唱不出曲调，能唱出歌词的情况下提升**哼唱识曲**的成功率。
 ### PRD4.人工智能概率性与用户痛点
-* [搜狗语音识别产品与竞品准确率对比评估报告](https://max.book118.com/html/2017/0528/109819187.shtm)中显示，**百度语音识别**的准确率可排实验对象的前三，至于为什么不用排名第一的讯飞，详情见**API2.使用比较分析**和**API3.使用后风险报告**
+* [《搜狗语音识别产品与竞品准确率对比评估报告》](https://max.book118.com/html/2017/0528/109819187.shtm)中显示，**百度语音识别**的准确率可排实验对象的前三，至于为什么不用排名第一的讯飞，详情见**API2.使用比较分析**和**API3.使用后风险报告**
 * 百度官方宣称
   > 百度语音识别为开发者提供业界优质且免费的语音服务，通过场景识别优化，为车载导航，智能家居和社交聊天等行业提供语音解决方案，`准确率达到90%`以上，让您的应用绘“声”绘色
 * __可导致识别失败的因素和如何解决__
@@ -64,7 +66,7 @@
 
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### API1.使用水平
-* [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
+* [jupyter代码文件](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)，展示了百度语音识别，科大讯飞语音听写和歌曲识别，以及网易云搜索等API
 * API运作流程图
 
 	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/API%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="API运作流程图" width="80%">
@@ -77,5 +79,7 @@
 | 歌曲ID | 歌曲音频 | 网易云播放 |
 
 ### API2.使用比较分析
+* [《使用比较分析文档》](https://github.com/Tumaorou/API_ML_AI/blob/master/API_compare.md)
+* 通过比较使用方便程度，性价比，使用限制等方面分析得出使用百度语音识别，科大讯飞歌曲识别，网易云搜索等API
 ### API3.使用后风险报告
 ### API4.加分项
