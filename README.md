@@ -7,6 +7,7 @@
 * [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
 * [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
 * [《使用比较分析文档》](https://github.com/Tumaorou/API_ML_AI/blob/master/API_compare.md)
+* [2018年中国人工智能行业市场前景研究报告](http://www.askci.com/news/finance/20180330/151540120775_2.shtml)
 ------
 # 实在细节
 ## 一、PRD
@@ -79,7 +80,25 @@
 | 歌曲ID | 歌曲音频 | 网易云播放 |
 
 ### API2.使用比较分析
+* [一手证据](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)（API实际使用）
 * [《使用比较分析文档》](https://github.com/Tumaorou/API_ML_AI/blob/master/API_compare.md)
-* 通过比较使用方便程度，性价比，使用限制等方面分析得出使用百度语音识别，科大讯飞歌曲识别，网易云搜索等API
+* 通过比较使用方便程度，性价比，使用限制等方面分析得出使用百度语音识别，科大讯飞歌曲识别，网易云搜索等API。
 ### API3.使用后风险报告
+#### 前景报告
+* [2018年中国人工智能行业市场前景研究报告](http://www.askci.com/news/finance/20180330/151540120775_2.shtml)
+
+| 类别 | 现在发展程度 | 未来前景 |
+| --- | --- | --- |
+| 语音识别 | 人工智能领域的一个重要分支 | 是目前主流研究的方向 |
+| 歌曲识别 | 一种特殊的语音识别 | 实际应用广 |
+
+* 综上所述，在语音识别以及它的实际应用上，占了目前人工智能市场的较大比重，发展前景良好。
+#### 未来使用策略
+| 产品 | 市场竞争程度 | 输入输出限制 | 价格 | 能否自己开发 |
+| --- | --- | --- | --- | --- |
+| 百度语音识别 | 非常强，有科大讯飞，三角兽等多家竞争对手 | 调用量无限制（QPS限制100） | 可免费使用 | 开发难度大，而且不成熟，尽量使用API |
+| 讯飞歌曲识别 | 歌曲识别的接口很多，但开放使用的只找到讯飞一家 | 每日500次限额/只能设置5个IP地址进行调用 | 可免费使用 | 指纹比对的代码难度不大，但要依赖庞大的**数据库** |
+| 网易云搜索 | 无官方API，只有民间的 | 无限制 | 完全免费 | 需要庞大的**数据库** |
+
+* 综上所述，在数据库足够庞大的情况下，歌曲识别和音乐搜索可以自己开发代替API（[指纹比对教程](https://blog.csdn.net/sinat_38682860/article/details/80735513)），语音识别依然会用第三方API。
 ### API4.加分项
