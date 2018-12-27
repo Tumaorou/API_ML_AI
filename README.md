@@ -7,7 +7,7 @@
 * [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
 * [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
 * [《使用比较分析文档》](https://github.com/Tumaorou/API_ML_AI/blob/master/API_compare.md)
-* [2018年中国人工智能行业市场前景研究报告](http://www.askci.com/news/finance/20180330/151540120775_2.shtml)
+* [《2018年中国人工智能行业市场前景研究报告》](http://www.askci.com/news/finance/20180330/151540120775_2.shtml)
 ------
 # 实在细节
 ## 一、PRD
@@ -85,7 +85,7 @@
 * 通过比较使用方便程度，性价比，使用限制等方面分析得出使用百度语音识别，科大讯飞歌曲识别，网易云搜索等API。
 ### API3.使用后风险报告
 #### 前景报告
-* [2018年中国人工智能行业市场前景研究报告](http://www.askci.com/news/finance/20180330/151540120775_2.shtml)
+* [**《2018年中国人工智能行业市场前景研究报告》**](http://www.askci.com/news/finance/20180330/151540120775_2.shtml)
 
 | 类别 | 现在发展程度 | 未来前景 |
 | --- | --- | --- |
