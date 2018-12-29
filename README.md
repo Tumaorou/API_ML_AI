@@ -67,7 +67,7 @@
 
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### API1.使用水平
-* [jupyter代码文件](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)，展示了百度语音识别，科大讯飞语音听写和歌曲识别，以及网易云搜索等API
+* [jupyter代码文件](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)，展示了最基本的百度语音识别，科大讯飞语音听写和歌曲识别，以及网易云搜索等API的调用及简单的使用。
 * API运作流程图
 
 	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/API%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="API运作流程图" width="80%">
