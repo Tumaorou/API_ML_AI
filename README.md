@@ -1,14 +1,7 @@
 # 哼唱识曲文档
 ## 许烨臻
-## 清单
-* [初版PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
-* [《搜狗语音识别产品与竞品准确率对比评估报告》](https://max.book118.com/html/2017/0528/109819187.shtm)
-* [产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)
-* [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
-* [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
-* [《使用比较分析文档》](https://github.com/Tumaorou/API_ML_AI/blob/master/API_compare.md)
-* [《2018年中国人工智能行业市场前景研究报告》](http://www.askci.com/news/finance/20180330/151540120775_2.shtml)
 ------
+
 # 实在细节
 ## 一、PRD
 ### PRD1.加值宣言
@@ -60,6 +53,10 @@
 	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/%E6%92%AD%E6%94%BE.PNG" alt="播放" width="35%">
 
 ### 原型2.信息设计
+* API运作流程图
+
+	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/API%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="API运作流程图" width="80%">
+
 ### 原型3.原型文档
 * [产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)
 * [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
@@ -68,9 +65,7 @@
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### API1.使用水平
 * [jupyter代码文件](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)，展示了最基本的百度语音识别，科大讯飞语音听写和歌曲识别，以及网易云搜索等API的调用及简单的使用。
-* API运作流程图
-
-	<img src="https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/API%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg" alt="API运作流程图" width="80%">
+* [API运作流程图](https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/API%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
 
 | 输入 | 输出 | API |
 | ------------- | ------------- | ------------- |
@@ -80,7 +75,7 @@
 | 歌曲ID | 歌曲音频 | 网易云播放 |
 
 ### API2.使用比较分析
-* [一手证据](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)（API实际使用）
+* [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)（一手证据，API实际使用）
 * [《使用比较分析文档》](https://github.com/Tumaorou/API_ML_AI/blob/master/API_compare.md)
 * 通过比较使用方便程度，性价比，使用限制等方面分析得出使用百度语音识别，科大讯飞歌曲识别，网易云搜索等API。
 ### API3.使用后风险报告
@@ -102,3 +97,14 @@
 
 * 综上所述，在数据库足够庞大的情况下，歌曲识别和音乐搜索可以自己开发代替API（[指纹比对教程](https://blog.csdn.net/sinat_38682860/article/details/80735513)），语音识别依然会用第三方API。
 ### API4.加分项
+
+## 清单
+* [初版PRD文档链接](https://github.com/Tumaorou/API_ML_AI/blob/master/PRD.md)
+* [《搜狗语音识别产品与竞品准确率对比评估报告》](https://max.book118.com/html/2017/0528/109819187.shtm)
+* [产品原型展示页面](https://tumaorou.github.io/API_ML_AI/#g=1&p=%E9%A6%96%E9%A1%B5)
+* [Axure原型文件下载](https://github.com/Tumaorou/API_ML_AI/blob/gh-pages/rp/%E5%93%BC%E5%94%B1%E8%AF%86%E6%9B%B2.rp?raw=true)
+* [jupyter代码展示](https://github.com/Tumaorou/API_ML_AI/blob/master/API_ML_AI.ipynb)
+* [API运作流程图](https://raw.githubusercontent.com/Tumaorou/API_ML_AI/master/img/API%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
+* [《使用比较分析文档》](https://github.com/Tumaorou/API_ML_AI/blob/master/API_compare.md)
+* [《2018年中国人工智能行业市场前景研究报告》](http://www.askci.com/news/finance/20180330/151540120775_2.shtml)
+* [指纹比对教程](https://blog.csdn.net/sinat_38682860/article/details/80735513)
